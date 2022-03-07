@@ -40,7 +40,7 @@ for(let i = 0; i<numbers.length; i++){
 }
 
 
-// 5. funciton
+// 5. function
 function multiply(num1, num2){
     const result = num1 + num2;
     return result;
