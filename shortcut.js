@@ -5,7 +5,7 @@
 /*
     truthy: 'kamrul', 7, true, [], {}
 
-    falsy: '', false, null, undefined 
+    falsy: 0, '', false, null, undefined 
     
 */
 
