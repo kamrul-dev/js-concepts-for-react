@@ -46,3 +46,20 @@ if(a !== b){
 else{
     console.log("a is not equal to b")
 }
+
+
+/* 
+    ২.২. এক বা একাধিক কন্ডিশন দিয়ে কিভাবে if-else লিখে আবার কখন if-else-if - else লিখে। সেই রকম একটা উদারহণ চিন্তা করে তুমি লিখে ফেলো
+*/
+
+const name = 'kamrul';
+const age = 24;
+if(name && age){
+    console.log("I am Kamrul")
+}
+else if(!name || age){
+    console.log('I am not kamrul')
+}
+else{
+    console.log("adress not found");
+}
