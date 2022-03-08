@@ -63,3 +63,20 @@ else if(!name || age){
 else{
     console.log("adress not found");
 }
+
+
+/* 
+    ৩. array কিভাবে ডিক্লেয়ার করে array এর মধ্যে length, index, push, pop, indexOf, includes এইগুলা কিভাবে কাজ করে। কোনটা দিয়ে কি করে? সেগুলা কি তুমি জানো? 
+*/
+
+const numbers = [2, 4, 5, 6, 7, 8, 9, 23, 53, 53]
+console.log(numbers.length); // find the array length
+console.log(numbers.indexOf(5)); //find the index of array elements
+// numbers.push(100); // add elememt in an array
+// numbers.pop(); // remove last element from an array
+console.log(numbers);
+
+for(let i = 0; i < numbers.length; i++){
+    const result = numbers[i]; // print the array elements
+    console.log(result);
+}
